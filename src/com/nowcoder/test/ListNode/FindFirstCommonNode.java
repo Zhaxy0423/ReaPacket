@@ -21,7 +21,6 @@ public class FindFirstCommonNode {
            }
        }
        Boolean flag=true;
-       ListNode current=null;
        while(flag){
            if(pHead1==pHead2){
                result=pHead1;

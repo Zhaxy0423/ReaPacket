@@ -8,8 +8,9 @@ import java.util.Queue;
  */
 public class MirrorTree {
     public void Mirror(TreeNode root) {
-        if(root==null)
+        if(root==null){
             return;
+        }
         //如果树为 null 直接返回。否则将根节点入队列。
         Queue<TreeNode> queue= new LinkedList<TreeNode>() ;
         queue.add(root);
